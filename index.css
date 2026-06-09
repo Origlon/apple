@@ -69,7 +69,7 @@
   gap: 12px;
 }
 .arvanzurgaapro {
-  background-image: url(/appledesign1/Figure.png);
+  background-image: url(/Figure.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -113,7 +113,7 @@
   font-weight: 400;
 }
 .arvanzurgaa {
-  background-image: url(/appledesign1/figure2.png);
+  background-image: url(figure2.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -125,7 +125,7 @@
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  background-image: url(/appledesign1/figure3.png);
+  background-image: url(/figure3.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -164,11 +164,11 @@
   column-gap: 16px;
 }
 .ipadair {
-  background-image: url(/appledesign1/figure4.png);
+  background-image: url(/figure4.png);
   background-size: cover;
   background-position: center;
   width: 50%;
-  height: 942px;
+  height: 580px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -205,16 +205,20 @@
 
   display: inline-block;
 }
+.page2 {
+  display: grid;
+  gap: 16px;
+}
 .airpod {
   flex-direction: column;
   justify-content: end;
   align-items: center;
   display: flex;
-  background-image: url(/appledesign1/figure5.png);
+  background-image: url(/figure5.png);
   background-size: cover;
   background-position: center;
   width: 50%;
-  height: 942px;
+  height: 580px;
   row-gap: 10px;
   color: white;
 }
@@ -232,11 +236,11 @@
   justify-content: start;
   align-items: center;
   display: flex;
-  background-image: url(/appledesign1/figure7.png);
+  background-image: url(/figure7.png);
   background-size: cover;
   background-position: center;
   width: 50%;
-  height: 942px;
+  height: 580px;
   gap: 10px;
 }
 .iwatchtext {
@@ -274,11 +278,11 @@
   justify-content: start;
   align-items: center;
   display: flex;
-  background-image: url(/appledesign1/figure8.png);
+  background-image: url(/figure8.png);
   background-size: cover;
   background-position: center;
   width: 50%;
-  height: 942px;
+  height: 580px;
 }
 .macbooktext {
   font-size: 36px;
@@ -306,10 +310,12 @@
 .hoyrdohdiv {
   display: flex;
   column-gap: 16px;
+  
 }
 .guravdahdiv {
   display: flex;
   column-gap: 16px;
+  
 }
 .tradein {
   flex-direction: column;
@@ -317,11 +323,11 @@
   justify-content: start;
   align-items: center;
   display: flex;
-  background-image: url(/appledesign1/figure10.png);
+  background-image: url(/figure10.png);
   background-size: cover;
   background-position: center;
   width: 50%;
-  height: 942px;
+  height: 580px;
 }
 .tradeintext {
   font-size: 18px;
@@ -363,11 +369,11 @@
   color: black;
   justify-content: start;
   align-items: center;
-  background-image: url(/appledesign1/figure12.png);
+  background-image: url(/figure12.png);
   background-size: cover;
   background-position: center;
   width: 50%;
-  height: 942px;
+  height: 580px;
 }
 .cardbichig {
   font-size: 18px;
