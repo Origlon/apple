@@ -173,7 +173,7 @@
   background-image: url(/figure4.png);
   background-size: cover;
   background-position: center;
-  width: 50%;
+  width: 49%;
   height: 580px;
   display: flex;
   flex-direction: column;
@@ -215,10 +215,11 @@
   /* display: grid; */
   display: flex;
   gap: 16px;
-  flex-direction: column;
+  /* flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   gap: 12px;
+  flex-wrap: wrap;
 }
 .airpod {
   flex-direction: column;
@@ -228,7 +229,7 @@
   background-image: url(/figure5.png);
   background-size: cover;
   background-position: center;
-  width: 50%;
+  width: 49%;
   height: 580px;
   row-gap: 10px;
   color: white;
@@ -241,17 +242,22 @@
   font-size: 18px;
   font-weight: 400;
 }
-.airpodall {
+#test {
   display: none;
+}
+.airpodall {
+  /* display: none; */
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  display: flex;
   row-gap: 20px;
   padding: 58px;
   background-image: url(figure23.png);
   background-size: cover;
   background-position: center;
   color: white;
+  width: 49%;
 }
 .airpod4text {
   font-size: 36px;
@@ -271,7 +277,7 @@
   background-image: url(/figure7.png);
   background-size: cover;
   background-position: center;
-  width: 50%;
+  width: 49%;
   height: 580px;
   gap: 10px;
 }
@@ -313,7 +319,7 @@
   background-image: url(/figure8.png);
   background-size: cover;
   background-position: center;
-  width: 50%;
+  width: 49%;
   height: 580px;
 }
 .macbooktext {
@@ -358,12 +364,11 @@
   background-image: url(/figure10.png);
   background-size: cover;
   background-position: center;
-  width: 50%;
+  width: 49%;
   height: 580px;
 }
 .airpodall {
   background-image: url(figure23.png);
-
 }
 .tradeintext {
   font-size: 18px;
@@ -408,7 +413,7 @@
   background-image: url(/figure12.png);
   background-size: cover;
   background-position: center;
-  width: 50%;
+  width: 49%;
   height: 580px;
 }
 .cardbichig {
@@ -511,7 +516,7 @@
   background-color: #000000cc;
   width: 8px;
   height: 8px;
-  border-radius: 50%;
+  border-radius: 49%;
 }
 .scroll2 {
   display: flex;

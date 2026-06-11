@@ -75,15 +75,22 @@
 .ipadair {
     width: 100%;
 }
+.ipadairniilsen {
+    width: 100%;
+}
 .airpod {
     display: none;
 }
 }
 .airpodall {
     display: block;
-    width: 50%;
+    width: 100%;
 }
 .page2 {
     display: flex;
     
+}
+#test {
+    display: flex;
+    width: 49%;
 }
